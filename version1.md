@@ -1,3 +1,5 @@
+- # HTML
+```
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,7 +13,7 @@
     <nav class="navbar navbar-expand-lg border-bottom bg-black">
         <div class="container">
             <a href="#" class="navbar-brand">
-                <b>CLONFLIX</b>
+                <b>FILM beauty by evelyn "la marmota hernandez" </b>
             </a>
             <form id="searchForm" class="d-flex ms-auto">
                 <input id="searchInput" type="text" class="form-control me-2" placeholder="Buscar Un Titulo">
@@ -30,7 +32,7 @@
         
     </main>
     <footer class="footer-py-4 mt-5">
-        <div class="container small">Hecho con asifor</div>
+        <div class="container small">Hecho con asifor 🥑👄🥑</div>
     </footer>
 
     <!--Modal para el detalle de la pelicula-->
@@ -51,3 +53,81 @@
     <script src="./js/app.js"></script>
   </body>
 </html>
+```
+- # CSS
+```
+body{
+    background-color: #0b0d10;
+}
+.navbar-brand b{
+    color:skyblue
+}
+.hero{
+    min-height: 55vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    padding: 3rem 1rem;
+    position: relative;
+}
+.hero::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg,rgba(0,0,0,0.0),rgba(0,0,0,0.7));
+}
+.hero > .container{
+    position: relative;
+    z-index: 2;
+}
+
+.row-title{
+    font-weight: 700;
+    margin: 1rem 0 .5rem;
+}
+
+.rail{
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: .5rem;
+    scroll-snap-type: x mandatory;
+}
+
+.card-poster{
+    min-width: 160px;
+    scroll-snap-align: start;
+    background: #111;
+    border: none;
+}
+
+.card-poster img{
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    border-radius: 5rem;
+}
+
+.badge-genre{
+    background-color: #e50914;
+}
+.footer{
+    border-top: 1px solid #222;
+    color: #9aa4ad;
+}
+
+::-webkit-scrollbar{
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #333;
+    border-radius: 4px;
+}
+```
+- # JS
+## Blank
+
+- 🏠[Principal](README.md)
+
+Este es la versión 1
