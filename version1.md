@@ -129,5 +129,6 @@ body{
 ## Blank
 
 - 🏠[Principal](README.md)
+- ➡️[Version2](version2.md)
 
 Este es la versión 1
